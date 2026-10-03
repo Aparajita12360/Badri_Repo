@@ -5,4 +5,4 @@
     - name: to install web srver(apt-get install apache2)
       apt:
         name: apache2
-        state: present
+        
