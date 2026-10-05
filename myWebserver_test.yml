@@ -5,10 +5,9 @@
     - name: to install web srver(apt-get install apache2)
       apt:
         name: apache2
-        state: present
     - name: i want to start web server in debian(service apache2 start)
       service:
         name: apache2
         state: started
-        
+
         
