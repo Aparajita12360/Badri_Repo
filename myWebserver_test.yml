@@ -21,6 +21,12 @@
         state: started
       when: ansible_os_family == "RedHat"
 
+    - name: to install web server(apt-get install httpd)
+      yum:
+        name: httpd
+        state: present
+      when: ansible_os_family == "RedHat"
+
 
 
         
