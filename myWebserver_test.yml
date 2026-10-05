@@ -1,6 +1,7 @@
 ---
 - hosts: all
   become: yes
+  gather_facts: yes
   tasks:
     - name: to install web srver(apt-get install apache2)
       apt:
